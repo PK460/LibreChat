@@ -28,7 +28,7 @@ services:
       - MCP_ALLOWED_ORIGINS=http://host.docker.internal:4005
     volumes:
       - ./librechat.yaml:/app/librechat.yaml
-      - C:/Technossus/Projects/LiberChat/AgentOs/ado-mcp-server:/ado-mcp-server
+      - C:/Technossus/Code/ado-mcp-server:/ado-mcp-server
       # - type: bind
       #   source: ./librechat.yaml
       #   target: /app/librechat.yaml
