@@ -8,6 +8,6 @@ mcpServers:
     startup: false
     timeout: 120000
     env:
-      ADO_PAT: ${process.env.ADO_PAT}
-      ADO_ORG: ${process.env.ADO_ORG}
-      ADO_PROJECT: ${process.env.ADO_PROJECT}
+      ADO_PAT: ${ADO_PAT}
+      ADO_ORG: ${ADO_ORG}
+      ADO_PROJECT: ${ADO_PROJECT}
